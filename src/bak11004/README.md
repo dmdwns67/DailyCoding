@@ -17,3 +17,7 @@ A를 정렬했을 때, 앞에서부터 K번째 있는 수를 출력한다.
 ## From
 
 [Baekjoon](https://www.acmicpc.net/problem/11004)
+
+## 유의할 점
+
+TIMEOUT날 것 같아서 O(nlogn)의 병합정렬을 사용하여 풀이하였다.
