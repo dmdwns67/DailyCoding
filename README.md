@@ -55,4 +55,5 @@
 |  45  |                              [문서 검색](src/bak1543/Main.java)                              |               [:green_book:](src/bak1543/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1543)                |       Search       |
 |  46  |                              [새](src/bak1568/Main.java)                              |               [:green_book:](src/bak1568/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1568)                |       Searach       |
 |  47  |                              [베스트셀러](src/bak1302/Main.java)                              |               [:green_book:](src/bak1302/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1302)                |       Search       |
+|  48  |                              [트로피 진열](src/bak1668/Main.java)                              |               [:green_book:](src/bak1668/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1668)                |       Search       |
 
