@@ -52,8 +52,6 @@
 |  42  |                              [Z](src/bak1074/Main.java)                              |               [:green_book:](src/bak1074/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/1074)                |       Recursive       |
 |  43  |                              [0 만들기](src/bak7490/Main.java)                              |               [:green_book:](src/bak7490/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/7490)                |       Recursive       |
 |  44  |                              [K번째 수](src/bak11004/Main.java)                              |               [:green_book:](src/bak11004/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/11004)                |       Sort       |
+|  45  |                              [문서 검색](src/bak1543/Main.java)                              |               [:green_book:](src/bak1543/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1543)                |       Searach       |
 
 
-
-
-잔디가 안 심겨요!!ㅜㅜ
