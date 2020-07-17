@@ -53,5 +53,5 @@
 |  43  |                              [0 만들기](src/bak7490/Main.java)                              |               [:green_book:](src/bak7490/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/7490)                |       Recursive       |
 |  44  |                              [K번째 수](src/bak11004/Main.java)                              |               [:green_book:](src/bak11004/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/11004)                |       Sort       |
 |  45  |                              [문서 검색](src/bak1543/Main.java)                              |               [:green_book:](src/bak1543/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1543)                |       Searach       |
-
+|  46  |                              [새](src/bak1568/Main.java)                              |               [:green_book:](src/bak1568/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1568)                |       Searach       |
 
