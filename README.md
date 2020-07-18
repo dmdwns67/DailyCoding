@@ -58,4 +58,6 @@
 |  48  |                              [트로피 진열](src/bak1668/Main.java)                              |               [:green_book:](src/bak1668/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1668)                |       Search       |
 |  49  |                              [성 지키기](src/bak1236/Main.java)                              |               [:green_book:](src/bak1236/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1236)                |       Search       |
 |  50  |                              [공유기 설치](src/bak2110/Main.java)                              |               [:green_book:](src/bak2110/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2110)                |       Binary Search       |
+|  51  |                              [중량제한](src/bak1939/Main.java)                              |               [:green_book:](src/bak1939/README.md)                |    High    |               [Baekjoon](https://www.acmicpc.net/problem/1939)                |       Binary Search, BFS       |
+
 
