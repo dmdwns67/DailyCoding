@@ -60,4 +60,5 @@
 |  50  |                              [공유기 설치](src/bak2110/Main.java)                              |               [:green_book:](src/bak2110/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2110)                |       Binary Search       |
 |  51  |                              [중량제한](src/bak1939/Main.java)                              |               [:green_book:](src/bak1939/README.md)                |    High    |               [Baekjoon](https://www.acmicpc.net/problem/1939)                |       Binary Search, BFS       |
 |  52  |                              [트리 순회](src/bak1991/Main.java)                              |               [:green_book:](src/bak1991/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1991)                |       Tree       |
+|  53  |                              [트리의 높이와 너비](src/bak2250/Main.java)                              |               [:green_book:](src/bak2250/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2250)                |       Tree       |
 
