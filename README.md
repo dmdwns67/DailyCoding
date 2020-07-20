@@ -63,4 +63,6 @@
 |  53  |                              [트리의 높이와 너비](src/bak2250/Main.java)                              |               [:green_book:](src/bak2250/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2250)                |       Tree       |
 |  54  |                              [최소 힙](src/bak1927/Main.java)                              |               [:green_book:](src/bak1927/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1927)                |       Heap       |
 |  55  |                              [카드 정렬하기](src/bak1715/Main.java)                              |               [:green_book:](src/bak1715/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1715)                |       Heap       |
+|  56  |                              [문제집](src/bak1766/Main.java)                              |               [:green_book:](src/bak1766/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/1766)                |       Heap, Topology Sort       |
+
 
