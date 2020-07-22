@@ -68,4 +68,4 @@
 |  58  |                              [평범한 배낭](src/bak12865/Main.java)                              |               [:green_book:](src/bak12865/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/12865)                |       DP       |
 |  59  |                              [가장 긴 증가하는 부분 수열](src/bak11053/Main.java)                              |               [:green_book:](src/bak11053/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/11053)                |       DP       |
 |  60  |                              [LCS](src/bak9251/Main.java)                              |               [:green_book:](src/bak9251/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/9251)                |       DP       |
-
+|  61  |                              [기타리스트](src/bak1495/Main.java)                              |               [:green_book:](src/bak1495/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/1495)                |       DP       |
