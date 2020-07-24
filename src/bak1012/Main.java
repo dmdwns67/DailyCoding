@@ -4,14 +4,13 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main {
     static int[][] map;
     static boolean[][] covered;
-    static PriorityQueue<Position> cabbage;
+    static Queue<Position> cabbage;
     static ArrayList<Position> check;
     static int M, N;
 
@@ -38,13 +37,7 @@ public class Main {
                 Arrays.fill(covered[i], Boolean.FALSE);
             }
     
-            cabbage = new PriorityQueue<Position>((Position p1, Position p2) ->{
-                if(p1.x != p2.x){
-                    return Integer.compare(p1.x, p2.x);
-                } else {
-                    return Integer.compare(p1.y, p2.y);
-                }
-            });
+            cabbage = new LinkedList<Position>();
 
             for(int i=0; i<K; i++){
                 st = new StringTokenizer(br.readLine());
