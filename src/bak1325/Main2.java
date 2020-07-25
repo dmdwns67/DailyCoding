@@ -3,14 +3,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
+// DFS는 시간초과
+public class Main2 {
     static boolean[] visited;
     static ArrayList<Integer>[] relations;
-    static Queue<Integer> q;
+    static int cnt;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -33,17 +32,17 @@ public class Main {
         int maxVal = -1;
         ArrayList<Integer> answer = new ArrayList<Integer>();
         for(int i=1; i<N+1; i++){
-            int count = 0;
+            cnt = 0;
             visited = new boolean[N+1];
             Arrays.fill(visited, Boolean.FALSE);
- 
-            count = bfs(i);
+            
+            dfs(i);
 
-            if(count > maxVal){
+            if(cnt > maxVal){
                 answer = new ArrayList<Integer>();
                 answer.add(i);
-                maxVal = count;
-            } else if (count == maxVal){
+                maxVal = cnt;
+            } else if (cnt == maxVal){
                 answer.add(i);
             }
         }
@@ -55,23 +54,13 @@ public class Main {
         br.close();
     }
 
-    public static int bfs(int c){
-        int count = 1;
-
+    public static void dfs(int c){
+        cnt++;
         visited[c] = true;
-        q = new LinkedList<Integer>();
-        q.add(c);
-        while(!q.isEmpty()){
-            int com = q.poll();
-            for(int computer : relations[com]){
-                if(!visited[computer]){
-                    q.add(computer);
-                    visited[computer] = true;
-                    count++;
-                }
+        for(int computer : relations[c]){
+            if(!visited[computer]){
+                dfs(computer);
             }
         }
-
-        return count;
     }
 }
