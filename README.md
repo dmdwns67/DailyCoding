@@ -107,4 +107,4 @@
 |  97  |                              [Unique Paths](src/leet62/Solution.java)                              |               [:green_book:](src/leet62/README.md)                |    Medium    |               [LeetCode](https://leetcode.com/problems/unique-paths/)                |       DP       |
 |  98  |                              [배열 돌리기 4](src/bak17406/Main.java)                              |               [:green_book:](src/bak17406/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/17406)                |       Simulation, DFS       |
 |  99  |                              [정수 삼각형](src/bak1932/Main.java)                              |               [:green_book:](src/bak1932/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1932)                |       DP       |
-
+|  100  |                              [가장 큰 증가 부분 수열](src/bak11055/Main.java)                              |               [:green_book:](src/bak11055/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/11055)                |       DP       |
