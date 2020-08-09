@@ -106,3 +106,5 @@
 |  96  |                              [2048](src/bak12100/Main.java)                              |               [:green_book:](src/bak12100/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/12100)                |       Simulation, DFS       |
 |  97  |                              [Unique Paths](src/leet62/Solution.java)                              |               [:green_book:](src/leet62/README.md)                |    Medium    |               [LeetCode](https://leetcode.com/problems/unique-paths/)                |       DP       |
 |  98  |                              [배열 돌리기 4](src/bak17406/Main.java)                              |               [:green_book:](src/bak17406/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/17406)                |       Simulation, DFS       |
+|  99  |                              [정수 삼각형](src/bak1932/Main.java)                              |               [:green_book:](src/bak1932/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1932)                |       DP       |
+
