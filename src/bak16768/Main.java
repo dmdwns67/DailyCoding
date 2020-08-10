@@ -18,15 +18,15 @@ public class Main {
         for(int i=0; i<N; i++){
             String raw = sc.next();
             for(int j=0; j<10; j++){
-                map[i][j] = raw.charAt(j) - '0';
+                map[i][j] = raw.charAt(j) - '0'; // tip when String type convert to Int 
             }
         }
 
-        boolean isChange = true;
+        boolean isChange = false;
         while(true){
             isChange = false;
-            chk = new boolean[N][10];
-            chk2 = new boolean[N][10];
+            chk = new boolean[N][10];   // for dfs
+            chk2 = new boolean[N][10];  // for dfs2
             for(int i=0; i<N; i++){
                 for(int j=0; j<10; j++){
                     if(map[i][j] == 0 || chk[i][j]){
@@ -41,7 +41,7 @@ public class Main {
             }
 
             if(!isChange) break;
-            
+
             down();
         }        
 
