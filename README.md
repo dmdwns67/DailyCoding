@@ -121,6 +121,7 @@
 |  111  |                              [토마토](src/bak7569/Main.java)                              |               [:green_book:](src/bak7569/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/7569)                |       BFS       |
 |  112  |                              [촌수계산](src/bak2644/Main.java)                              |               [:green_book:](src/bak2644/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/2644)                |       BFS       |
 |  113  |                              [포도주 시식](src/bak2156/Main.java)                              |               [:green_book:](src/bak2156/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2156)                |       DP       |
+|  114  |                              [☆연구소](src/bak14502/Main.java)                              |               [:green_book:](src/bak14502/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14502)                |       BackTracking, DFS       |
 
 
 
