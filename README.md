@@ -123,6 +123,7 @@
 |  113  |                              [포도주 시식](src/bak2156/Main.java)                              |               [:green_book:](src/bak2156/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2156)                |       DP       |
 |  114  |                              [☆연구소](src/bak14502/Main.java)                              |               [:green_book:](src/bak14502/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14502)                |       BackTracking, DFS       |
 |  115  |                              [☆탈출](src/bak3055/Main.java)                              |               [:green_book:](src/bak3055/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/3055)                |       BFS       |
+|  116  |                              [상근이의 여행](src/bak9372/Main.java)                              |               [:green_book:](src/bak9372/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/9372)                |       BFS       |
 
 
 
