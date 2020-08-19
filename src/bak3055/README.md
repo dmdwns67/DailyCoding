@@ -25,3 +25,9 @@
 ## From
 
 [Baekjoon](https://www.acmicpc.net/problem/3055)
+
+
+
+## Memo
+1. BFS 두 번 사용하는 문제라 좀 특이함(물, 고슴도치). BFS 돌려야 하는 순서가 물 -> 고슴도치.
+2. Queue를 사용하면서 매 분마다 물과 고슴도치가 이동하는 로직을 size()과 for 문을 사용해서 구현.
