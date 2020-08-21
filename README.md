@@ -128,6 +128,7 @@
 |  118  |                              [키 순서](src/bak2458/Main.java)                              |               [:green_book:](src/bak2458/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/2458)                |       Graph       |
 |  119  |                              [나이트의 이동](src/bak7562/Main.java)                              |               [:green_book:](src/bak7562/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/7562)                |       BFS       |
 |  120  |                              [신입 사원](src/bak1946/Main.java)                              |               [:green_book:](src/bak1946/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1946)                |       Greedy       |
+|  121  |                              [타일 채우기](src/bak2133/Main.java)                              |               [:green_book:](src/bak2133/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2133)                |       DP       |
 
 
 ## Study
