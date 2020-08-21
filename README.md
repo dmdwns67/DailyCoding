@@ -126,6 +126,7 @@
 |  116  |                              [상근이의 여행](src/bak9372/Main.java)                              |               [:green_book:](src/bak9372/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/9372)                |       BFS       |
 |  117  |                              [안전 영역](src/bak2468/Main.java)                              |               [:green_book:](src/bak2468/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/2468)                |       DFS       |
 |  118  |                              [키 순서](src/bak2458/Main.java)                              |               [:green_book:](src/bak2458/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/2458)                |       Graph       |
+|  119  |                              [나이트의 이동](src/bak7562/Main.java)                              |               [:green_book:](src/bak7562/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/7562)                |       BFS       |
 
 
 ## Study
