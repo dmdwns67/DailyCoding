@@ -131,6 +131,7 @@
 |  121  |                              [타일 채우기](src/bak2133/Main.java)                              |               [:green_book:](src/bak2133/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2133)                |       DP       |
 |  122  |                              [☆이모티콘](src/bak14226/Main.java)                              |               [:green_book:](src/bak14226/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14226)                |       BFS       |
 |  123  |                              [☆치즈](src/bak2636/Main.java)                              |               [:green_book:](src/bak2636/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2636)                |       BFS, Simulation       |
+|  124  |                              [☆빙산](src/bak2573/Main.java)                              |               [:green_book:](src/bak2573/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2573)                |       BFS, Simulation       |
 
 ## Study
 
