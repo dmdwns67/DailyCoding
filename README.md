@@ -132,6 +132,8 @@
 |  122  |                              [☆이모티콘](src/bak14226/Main.java)                              |               [:green_book:](src/bak14226/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14226)                |       BFS       |
 |  123  |                              [☆치즈](src/bak2636/Main.java)                              |               [:green_book:](src/bak2636/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2636)                |       BFS, Simulation       |
 |  124  |                              [☆빙산](src/bak2573/Main.java)                              |               [:green_book:](src/bak2573/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/2573)                |       BFS, Simulation       |
+|  125  |                              [주식가격](src/prog42584/Solution.java)                              |               [:green_book:](src/prog42584/README.md)                |    Lv2    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42584)                |       Simulation       |
+
 
 ## Study
 
