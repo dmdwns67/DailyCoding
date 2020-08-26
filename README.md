@@ -136,6 +136,7 @@
 |  126  |                              [☆문자열 압축](src/prog60057/Solution.java)                              |               [:green_book:](src/prog60057/README.md)                |    Lv2    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/60057)                |       String, Simulation       |
 |  127  |                              [☆2xn 타일링](src/prog12900/Solution.java)                              |               [:green_book:](src/prog12900/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12900)                |       DP       |
 |  128  |                              [☆섬 연결하기](src/prog42861/Solution.java)                              |               [:green_book:](src/prog42861/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42861)                |       Union-Find       |
+|  129  |                              [☆입국심사](src/prog43238/Solution.java)                              |               [:green_book:](src/prog43238/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43238)                |       BinarySearch       |
 
 
 ## Study
