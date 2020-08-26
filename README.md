@@ -137,7 +137,7 @@
 |  127  |                              [☆2xn 타일링](src/prog12900/Solution.java)                              |               [:green_book:](src/prog12900/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12900)                |       DP       |
 |  128  |                              [☆섬 연결하기](src/prog42861/Solution.java)                              |               [:green_book:](src/prog42861/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42861)                |       Union-Find       |
 |  129  |                              [☆입국심사](src/prog43238/Solution.java)                              |               [:green_book:](src/prog43238/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43238)                |       BinarySearch       |
-
+|  130  |                              [☆등굣길](src/prog42898/Solution.java)                              |               [:green_book:](src/prog42898/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42898)                |       DP       |
 
 ## Study
 
