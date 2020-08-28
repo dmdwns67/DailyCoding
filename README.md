@@ -142,6 +142,7 @@
 |  132  |                              [최고의 집합](src/prog12938/Solution.java)                              |               [:green_book:](src/prog12938/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12938)                |       Simulation       |
 |  133  |                              [거스름돈](src/prog12907/Solution.java)                              |               [:green_book:](src/prog12907/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12907)                |       DP       |
 |  134  |                              [실패율](src/prog42889/Solution.java)                              |               [:green_book:](src/prog42889/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42889)                |       Simulation       |
+|  135  |                              [디스크 컨트롤러](src/prog42627/Solution.java)                              |               [:green_book:](src/prog42627/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42627)                |       Queue, Simulation       |
 
 ## Study
 
