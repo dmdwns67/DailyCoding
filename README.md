@@ -145,6 +145,7 @@
 |  135  |                              [디스크 컨트롤러](src/prog42627/Solution.java)                              |               [:green_book:](src/prog42627/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42627)                |       Queue, Simulation       |
 |  136  |                              [소수 찾기](src/prog42839/Solution.java)                              |               [:green_book:](src/prog42839/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/42839)                |       Simulation       |
 |  137  |                              [네트워크](src/prog43162/Solution.java)                              |               [:green_book:](src/prog43162/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43162)                |       BFS       |
+|  138  |                              [여행경로](src/prog43164/Solution.java)                              |               [:green_book:](src/prog43164/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43164)                |       DFS, BackTracking       |
 
 
 ## Study
