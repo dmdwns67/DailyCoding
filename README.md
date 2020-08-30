@@ -147,6 +147,7 @@
 |  137  |                              [네트워크](src/prog43162/Solution.java)                              |               [:green_book:](src/prog43162/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43162)                |       BFS       |
 |  138  |                              [여행경로](src/prog43164/Solution.java)                              |               [:green_book:](src/prog43164/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43164)                |       DFS, BackTracking       |
 |  139  |                              [코테](src/cote1/Solution.java)                              |               [:green_book:](src/cote1/README.md)                |    -    |               -                |       Simulation       |
+|  140  |                              [연산자 끼워넣기](src/bak14888/Main.java)                              |               [:green_book:](src/bak14888/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/14888)                |       DFS       |
 
 
 ## Study
