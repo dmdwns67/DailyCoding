@@ -149,7 +149,7 @@
 |  139  |                              [코테](src/cote1/Solution.java)                              |               [:green_book:](src/cote1/README.md)                |    -    |               -                |       Simulation       |
 |  140  |                              [연산자 끼워넣기](src/bak14888/Main.java)                              |               [:green_book:](src/bak14888/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/14888)                |       DFS       |
 |  141  |                              [☆퇴사](src/bak14501/Main.java)                              |               [:green_book:](src/bak14501/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/14501)                |       DFS       |
-
+|  142  |                              [☆스타트와 링크](src/bak14889/Main.java)                              |               [:green_book:](src/bak14889/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/14889)                |       DFS       |
 
 ## Study
 
