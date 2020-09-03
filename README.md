@@ -155,6 +155,7 @@
 |  145  |                              [트럭](src/bak13335/Main.java)                              |               [:green_book:](src/bak13335/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/13335)                |       Simulation       |
 |  146  |                              [멀리 뛰기](src/prog12914/Solution.java)                              |               [:green_book:](src/prog12914/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12914)                |       DP       |
 |  147  |                              [정수 삼각형](src/prog43105/Solution.java)                              |               [:green_book:](src/prog43105/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43105)                |       DP       |
+|  148  |                              [야근 지수](src/prog12927/Solution.java)                              |               [:green_book:](src/prog12927/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12927)                |       Simulation, PriorityQueue       |
 
 
 ## Study
