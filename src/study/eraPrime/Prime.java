@@ -58,6 +58,7 @@ public class Prime {
 
     // 1. 소수 체크 기본
     public static boolean isPrime(int num){
+        if(num == 0 || num == 1) return false;
         for(int i=2; i<num; i++){
             if(num%i == 0) return false;
             if(i*i > num) break;
