@@ -156,6 +156,7 @@
 |  146  |                              [멀리 뛰기](src/prog12914/Solution.java)                              |               [:green_book:](src/prog12914/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12914)                |       DP       |
 |  147  |                              [정수 삼각형](src/prog43105/Solution.java)                              |               [:green_book:](src/prog43105/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/43105)                |       DP       |
 |  148  |                              [야근 지수](src/prog12927/Solution.java)                              |               [:green_book:](src/prog12927/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12927)                |       Simulation, PriorityQueue       |
+|  149  |                              [줄 서는 방법](src/prog12936/Solution.java)                              |               [:green_book:](src/prog12936/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12936)                |       Simulation       |
 
 
 ## Study
