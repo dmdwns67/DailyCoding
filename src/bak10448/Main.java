@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int testCase = sc.nextInt();
-        int[] arr = new int[50];
+        int[] arr = new int[50]; // 44개만 있어도 됩니다.
         
         int sum = 2;
         arr[0] = 1;
