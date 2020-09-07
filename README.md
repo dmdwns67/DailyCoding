@@ -159,6 +159,8 @@
 |  149  |                              [줄 서는 방법](src/prog12936/Solution.java)                              |               [:green_book:](src/prog12936/README.md)                |    Lv3    |               [Programmers](https://programmers.co.kr/learn/courses/30/lessons/12936)                |       Simulation       |
 |  150  |                              [유레카 이론](src/bak10448/Main.java)                              |               [:green_book:](src/bak10448/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/10448)                |       Search       |
 |  151  |                              [나무 자르기](src/bak2805/Main.java)                              |               [:green_book:](src/bak2805/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/2805)                |       Search       |
+|  152  |                              [숫자 카드2](src/bak10816/Main.java)                              |               [:green_book:](src/bak10816/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/10816)                |       Simulation       |
+
 
 
 ## Study
