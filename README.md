@@ -160,6 +160,7 @@
 |  150  |                              [유레카 이론](src/bak10448/Main.java)                              |               [:green_book:](src/bak10448/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/10448)                |       Search       |
 |  151  |                              [나무 자르기](src/bak2805/Main.java)                              |               [:green_book:](src/bak2805/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/2805)                |       Search       |
 |  152  |                              [숫자 카드2](src/bak10816/Main.java)                              |               [:green_book:](src/bak10816/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/10816)                |       Simulation       |
+|  153  |                              [☆랜선 자르기](src/bak1654/Main.java)                              |               [:green_book:](src/bak1654/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1654)                |       Binary Search       |
 
 
 
