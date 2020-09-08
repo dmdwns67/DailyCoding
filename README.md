@@ -161,7 +161,7 @@
 |  151  |                              [나무 자르기](src/bak2805/Main.java)                              |               [:green_book:](src/bak2805/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/2805)                |       Search       |
 |  152  |                              [숫자 카드2](src/bak10816/Main.java)                              |               [:green_book:](src/bak10816/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/10816)                |       Simulation       |
 |  153  |                              [☆랜선 자르기](src/bak1654/Main.java)                              |               [:green_book:](src/bak1654/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/1654)                |       Binary Search       |
-
+|  154  |                              [K번째 수](src/bak1300/Main.java)                              |               [:green_book:](src/bak1300/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/1300)                |       Binary Search       |
 
 
 ## Study
