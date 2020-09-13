@@ -164,6 +164,7 @@
 |  154  |                              [K번째 수](src/bak1300/Main.java)                              |               [:green_book:](src/bak1300/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/1300)                |       Binary Search       |
 |  155  |                              [시험 감독](src/bak13458/Main.java)                              |               [:green_book:](src/bak13458/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/13458)                |       Simulation       |
 |  156  |                              [☆구슬 탈출2](src/bak13460/Main.java)                              |               [:green_book:](src/bak13460/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/13460)                |       Simulation, BFS       |
+|  157  |                              [☆테트로미노](src/bak14500/Main.java)                              |               [:green_book:](src/bak14500/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14500)                |       Simulation, DFS       |
 
 
 ## Study
