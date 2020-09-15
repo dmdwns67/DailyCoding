@@ -17,22 +17,24 @@ public class Main {
             }
         }
 
-        turnFlag = new boolean[5];
-        dirFlag = new int[5];
-        checked = new boolean[5];
+        turnFlag = new boolean[5]; // #1~4 톱니바퀴 돌릴지 말지 체크
+        dirFlag = new int[5]; // #1~4 톱니바퀴 돌릴 경우 방향 체크
+        checked = new boolean[5]; // #인접 톱니바퀴 중복체크 방지
         int K = Integer.parseInt(br.readLine());
         for(int i=0; i<K; i++){
             String[] cmd = br.readLine().split(" "); // [0]: gear# , [1]: direction
             int gear = Integer.parseInt(cmd[0]);
             int direction = Integer.parseInt(cmd[1]);
 
-            initState();
+            initState(); // 상태값 초기화
 
+            // 인접 톱니바퀴 체크하면서 상태값 업데이트
             turnFlag[gear] = true;
             dirFlag[gear] = direction;
             checked[gear] = true;
             checkAdjGear(gear, direction);
 
+            // 돌리는 것으로 체크된 톱니바퀴들 돌리기
             for(int j=1; j<5; j++){
                 if(turnFlag[j]){
                     turnGear(j, dirFlag[j]);
