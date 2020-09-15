@@ -166,6 +166,7 @@
 |  156  |                              [☆구슬 탈출2](src/bak13460/Main.java)                              |               [:green_book:](src/bak13460/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/13460)                |       Simulation, BFS       |
 |  157  |                              [☆테트로미노](src/bak14500/Main.java)                              |               [:green_book:](src/bak14500/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14500)                |       Simulation, DFS       |
 |  158  |                              [☆주사위 굴리기](src/bak14499/Main.java)                              |               [:green_book:](src/bak14499/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14499)                |       Simulation       |
+|  159  |                              [☆톱니바퀴](src/bak14891/Main.java)                              |               [:green_book:](src/bak14891/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14891)                |       Simulation       |
 
 
 ## Study
