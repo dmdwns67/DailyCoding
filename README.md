@@ -167,7 +167,7 @@
 |  157  |                              [☆테트로미노](src/bak14500/Main.java)                              |               [:green_book:](src/bak14500/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14500)                |       Simulation, DFS       |
 |  158  |                              [☆주사위 굴리기](src/bak14499/Main.java)                              |               [:green_book:](src/bak14499/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14499)                |       Simulation       |
 |  159  |                              [☆톱니바퀴](src/bak14891/Main.java)                              |               [:green_book:](src/bak14891/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14891)                |       Simulation       |
-|  160  |                              [미완료! 내일 다시 ☆감시](src/bak15683/Main.java)                              |               [:green_book:](src/bak15683/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/15683)                |       Simulation       |
+|  160  |                              [☆감시](src/bak15683/Main.java)                              |               [:green_book:](src/bak15683/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/15683)                |       Simulation, BackTracking       |
 
 ## Study
 

@@ -1,190 +1,141 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int N,M,minVal,cctvNum;
-    static int[][] map, visited;
+    static int x,y;
+    static int[][] map;
+    static int[] dx={0,1,0,-1}; // 좌하우상
+    static int[] dy={-1,0,1,0};
+    static List<CCTV> cctvs;
+    static int allCount = 0;
+    static int monitorCount = Integer.MAX_VALUE;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
-        
-        int x=0,y=0;
-        boolean findStart = false;
-        map = new int[N][M];
-        visited = new int[N][M];
-        for(int i=0; i<N; i++){
+        y = Integer.parseInt(st.nextToken());
+        x = Integer.parseInt(st.nextToken());
+
+        map = new int[y][x];
+        cctvs = new ArrayList<CCTV>();
+
+        for(int i=0; i < y; i++) {
             st = new StringTokenizer(br.readLine());
-            for(int j=0; j<M; j++){
-                map[i][j] = Integer.parseInt(st.nextToken());
-                if(map[i][j] == 6) {
-                    visited[i][j] = -1;
+            for(int j=0; j < x; j++) {
+                int area = Integer.parseInt(st.nextToken());
+                if(area == 0) {
+                    allCount++;
+                } else if(area != 6) {
+                    cctvs.add(new CCTV(j,i,area));
                 }
-                if(map[i][j] != 0 && map[i][j] != 6) {
-                    cctvNum++;
-                    if(!findStart) {
-                        x = i;
-                        y = j;
-                        findStart = true;
-                    }
-                }
+
+                map[i][j] = area;
             }
         }
 
-        minVal = Integer.MAX_VALUE;
-        countNonCCTVArea(x+y,1);
+        backTracking(0, new CCTV[cctvs.size()]);
 
-        System.out.println(minVal);
+        System.out.println(monitorCount);
 
         br.close();
     }
 
-    public static void countNonCCTVArea(int idx, int cnt){
-        if(cnt > cctvNum) {
-            minVal = Math.min(minVal, countArea());
-            return;
-        }
-
-        for(int index=idx; index<N*M; index++){
-            int i = index / M;
-            int j = index % M;
-                if(map[i][j] != 0 && map[i][j] != 6) {
-                    switch(map[i][j]) {
-                        case 1:
-                        case 3:
-                        case 4:
-                            for(int k=0; k<4; k++){
-                                updateCCTVArea(i, j, map[i][j], k, 1);
-                                countNonCCTVArea(index+1, cnt+1);
-                                updateCCTVArea(i, j, map[i][j], k, 0);
-                            }
-                            break;
-                        case 2:
-                            for(int k=0; k<4; k+=2){
-                                updateCCTVArea(i, j, 2, k, 1);
-                                countNonCCTVArea(index+1, cnt+1);
-                                updateCCTVArea(i, j, 2, k, 0);
-                            }
-                            break;
-                        case 5:
-                            updateCCTVArea(i, j, 5, -1, 1);
-                            countNonCCTVArea(index+1, cnt+1);
-                            updateCCTVArea(i, j, 5, -1, 0);
-                            break;
-                    }
+    public static void backTracking(int idx, CCTV[] selectedCctvs) {
+        if(idx == cctvs.size()) {
+            countUnreachedArea(selectedCctvs, new boolean[y][x]);
+        } else {
+            CCTV curCctv = cctvs.get(idx);
+            for(int i=0; i<4; i++) {
+                CCTV c = new CCTV(curCctv.x, curCctv.y, curCctv.type);
+                switch(curCctv.type) {
+                    case 1:
+                        c.addDirection(i);
+                        selectedCctvs[idx] = c;
+                        backTracking(idx+1, selectedCctvs);
+                        break;
+                    case 2:
+                        if(i>=2) { // 2가지 경우의 수 밖에 없음(상하 / 좌우)
+                            return;
+                        }
+                        c.addDirection(i);
+                        c.addDirection(i+2);
+                        selectedCctvs[idx] = c;
+                        backTracking(idx+1, selectedCctvs);
+                        break;
+                    case 3:
+                        c.addDirection(i);
+                        c.addDirection((i+1) % 4);
+                        selectedCctvs[idx] = c;
+                        backTracking(idx+1, selectedCctvs);
+                        break;
+                    case 4:
+                        c.addDirection(i);
+                        c.addDirection((i+1) % 4);
+                        c.addDirection((i+2) % 4);
+                        selectedCctvs[idx] = c;
+                        backTracking(idx+1, selectedCctvs);
+                        break;
+                    case 5:
+                        if(i>=1) { // 1가지 경우의 수 밖에 없음
+                            return;
+                        }
+                        c.addDirection((i));
+                        c.addDirection((i+1) % 4);
+                        c.addDirection((i+2) % 4);
+                        c.addDirection((i+3) % 4);
+                        selectedCctvs[idx] = c;
+                        backTracking(idx+1, selectedCctvs);
+                        break;
                 }
-            
-        }
-    }
-
-    public static void updateCCTVArea(int x, int y, int cctv, int idx, int flag) {
-        int[] dx = {-1,1,0,0}; // 상하좌우
-        int[] dy = {0,0,-1,1};
-        int nx=0, ny=0;
-        switch(cctv) {
-            case 1:
-                nx = x +dx[idx];
-                ny = y +dy[idx];
-                while(true) {
-                    if(nx>=0 && ny>=0 && nx<N && ny<M) {
-                        if(map[nx][ny] == 6) break;
-                        if(flag == 1) {
-                            visited[nx][ny]++;}
-                        else {
-                            visited[nx][ny]--;}
-                        nx = nx + dx[idx];
-                        ny = ny + dy[idx];
-                    } else { break; }
-                }
-                break;
-            case 2: // 0,1 / 2,3
-                for(int i=0; i<2; i++) {
-                    nx = x +dx[idx+i];
-                    ny = y +dy[idx+i];
-                    while(true) {
-                        if(nx>=0 && ny>=0 && nx<N && ny<M) {
-                            if(map[nx][ny] == 6) break;
-                            if(flag == 1) {visited[nx][ny]++;}
-                            else {visited[nx][ny]--;}
-                            nx = nx + dx[idx+i];
-                            ny = ny + dy[idx+i];
-                        } else { break; }
-                    }
-                }
-                break;
-            case 3:
-                // idx 0~3
-                // 0123 상하좌우
-                // 03 12 20 31
-                for(int i=0; i<2; i++) {
-                    nx = x +dx[idx];
-                    ny = y +dy[idx];
-                    while(true) {
-                        if(nx>=0 && ny>=0 && nx<N && ny<M) {
-                            if(map[nx][ny] == 6) break;
-                            if(flag == 1) {visited[nx][ny]++;}
-                            else {visited[nx][ny]--;}
-                            nx = nx + dx[idx];
-                            ny = ny + dy[idx];
-                        } else { break; }
-                    }
-
-                    if(idx==0) idx = 3;
-                    if(idx==1) idx = 2;
-                    if(idx==2) idx = 0;
-                    if(idx==3) idx = 1;
-                }   
-                break;
-            case 4:
-                // idx 0~3
-                // 0123 상하좌우
-                // 023 123 201 301
-                for(int i=1; i<4; i++) {
-                    nx = x +dx[(idx+i)%4];
-                    ny = y +dy[(idx+i)%4];
-                    while(true) {
-                        if(nx>=0 && ny>=0 && nx<N && ny<M) {
-                            if(map[nx][ny] == 6) break;
-                            if(flag == 1) {
-                                visited[nx][ny]++;}
-                            else {
-                                visited[nx][ny]--;}
-                            nx = nx + dx[(idx+i)%4];
-                            ny = ny + dy[(idx+i)%4];
-                        } else { break; }
-                    }
-                }
-                break;
-            case 5:
-                for(int i=0; i<4; i++) {
-                    nx = x +dx[i];
-                    ny = y +dy[i];
-                    while(true) {
-                        if(nx>=0 && ny>=0 && nx<N && ny<M) {
-                            if(map[nx][ny] == 6) break;
-                            if(flag == 1) {
-                                visited[nx][ny]++;}
-                            else {
-                                visited[nx][ny]--;}
-                            nx = nx + dx[i];
-                            ny = ny + dy[i];
-                        } else { break; }
-                    }
-                }      
-                break;
-        }   
-    }
-
-    public static int countArea(){
-        int cnt = 0;
-        for(int i=0; i<N; i++){
-            for(int j=0; j<M; j++){
-                if(visited[i][j] == 0 && map[i][j] == 0) cnt++;
             }
         }
-        return cnt;
+    }
+
+    // 사각지대 개수 검사
+    public static void countUnreachedArea(CCTV[] selectedCctvs, boolean[][] visited) {
+        int count = 0;
+        for(int i=0; i<selectedCctvs.length; i++) {
+            CCTV c = selectedCctvs[i];
+            for(int d=0; d<c.DirectionSize(); d++) {
+                int dir = c.directions.get(d);
+                int nx = c.x + dx[dir];
+                int ny = c.y + dy[dir];
+                while((nx >= 0 && nx < x) && (ny >= 0 && ny < y)) {
+                    if(map[ny][nx] == 0) {
+                        if(!visited[ny][nx]) {
+                            visited[ny][nx] = true;
+                            count++;
+                        }
+                    } else if(map[ny][nx] == 6) {
+                        break;
+                    }
+                    nx += dx[dir];
+                    ny += dy[dir];
+                }
+            }
+        }
+        monitorCount = Math.min(monitorCount, allCount - count);
+    }
+}
+
+class CCTV {
+    int x, y, type;
+    List<Integer> directions = new ArrayList<Integer>();
+
+    public CCTV(int x, int y, int type) {
+        this.x = x;
+        this.y = y;
+        this.type = type;       
+    }
+
+    public void addDirection(int dir) {
+        directions.add(dir);
+    }
+
+    public int DirectionSize() {
+        return directions.size();
     }
 }
