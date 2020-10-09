@@ -169,6 +169,7 @@
 |  159  |                              [☆톱니바퀴](src/bak14891/Main.java)                              |               [:green_book:](src/bak14891/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/14891)                |       Simulation       |
 |  160  |                              [☆감시](src/bak15683/Main.java)                              |               [:green_book:](src/bak15683/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/15683)                |       Simulation, BackTracking       |
 |  161  |                              [☆치킨 배달](src/bak15686/Main.java)                              |               [:green_book:](src/bak15686/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/15686)                |       Combination, BackTracking       |
+|  162  |                              [☆사다리 조작](src/bak15684/Main.java)                              |               [:green_book:](src/bak15684/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/15684)                |       DFS, BackTracking       |
 
 ## Study
 
