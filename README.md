@@ -173,11 +173,10 @@
 |  163  |                              [☆배달](src/bak1175/Main.java)                              |               [:green_book:](src/bak1175/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/1175)                |       BFS       |
 |  164  |                              [소용돌이 예쁘게 출력하기](src/bak1022/Main.java)                              |               [:green_book:](src/bak1022/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/1022)                |       구현       |
 |  165  |                              [☆미세먼지 안녕!](src/bak17144/Main.java)                              |               [:green_book:](src/bak17144/README.md)                |    Medium    |               [Baekjoon](https://www.acmicpc.net/problem/17144)                |       구현       |
+|  166  |                              [N과 M(2)](src/bak15650/Main.java)                              |               [:green_book:](src/bak15650/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/15650)                |       BackTracking, DFS       |
 
 ## Study
 
 |  #  |                                                           Title                                                           |                                       README                                       |            TAGS            |
 | :-: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :------------------------: |
 |  1  |                                 [에라토스테네스의 체 활용](src/study/eraPrime/Prime.java)                                 |                  [:green_book:](src/study/eraPrime/README.md)                      |     소수,약수,소인수분해   |
-
-TEST.
