@@ -176,6 +176,7 @@
 |  166  |                              [N과 M(2)](src/bak15650/Main.java)                              |               [:green_book:](src/bak15650/README.md)                |    Easy    |               [Baekjoon](https://www.acmicpc.net/problem/15650)                |       BackTracking, DFS       |
 |  167  |                              [Two Sum](src/leet1/Solution.java)                              |               [:green_book:](src/leet1/README.md)                |    Easy    |               [LeetCode](https://leetcode.com/problems/two-sum/)                |       Search       |
 |  168  |                              [Add Two Numbers](src/leet2/Solution.java)                              |               [:green_book:](src/leet2/README.md)                |    Medium    |               [LeetCode](https://leetcode.com/problems/add-two-numbers/)                |       구현       |
+|  169  |                              [Longest Substring Without Repeating Characters](src/leet3/Solution.java)                              |               [:green_book:](src/leet3/README.md)                |    Medium    |               [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                |       구현       |
 
 
 ## Study
